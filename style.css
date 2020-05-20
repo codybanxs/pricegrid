@@ -1,0 +1,148 @@
+
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+
+a:link {
+    text-decoration: none;
+    color: hsl(179, 62%, 43%);
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+h4{
+    font-weight: 700;
+}
+.maincard{
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    background: #fff;
+    /* padding: 54px 54px 72px 54px; */
+    margin: 54px 54px;
+    border: 2px solid beige;
+    border-radius: 8px;
+    box-shadow: 0px 0px 67px -20px rgba(0,0,0,0.23);
+}
+.topsection{
+    margin-left: 40px;
+    padding: 32px;
+
+}
+
+.topcenter{
+    /* margin-left: 40px;
+    padding: 32px; */
+}
+
+.bottomsection{
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    
+
+}
+
+.leftcolor{
+    background-color: hsl(179, 62%, 43%);
+    margin-bottom: 24px;
+    height: 100%;
+}
+
+
+
+.left{
+    margin-left: 40px;
+    padding-right: 40px;
+}
+
+.rightcolor{
+    background-color: hsl(179, 65%, 52%);
+    height: 100%;
+    margin-bottom: 24px;
+}
+
+.right{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 24px;
+   padding: 0px 40px 0px 0px;
+}
+
+.thirtyday{
+    color: hsl(71, 73%, 54%);
+    
+}
+.gain{
+    color: hsl(218, 22%, 67%)
+}
+
+
+.signup{
+    /* margin-left: 40px; */
+    padding: 16px 60px 16px 60px;
+    width: 80%;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    background-color: hsl(71, 73%, 54%);
+    border: 1px solid hsl(71, 73%, 54%);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 0px 0px 67px -20px rgba(0,0,0,0.53);
+
+}
+
+.dollaramount{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+.permonth{
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.fullaccess{
+    font-size: 16px;
+    color: #fff;
+}
+
+.whyus{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.aboutuscopy{
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.monthly{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.attribution{
+    color: hsl(218, 22%, 67%)
+
+}
+
+
