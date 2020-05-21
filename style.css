@@ -25,11 +25,19 @@ p{
 h4{
     font-weight: 700;
 }
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+}
 .maincard{
     display: grid;
     align-items: center;
     justify-content: left;
     background: #fff;
+    max-width: 800px;
     /* padding: 54px 54px 72px 54px; */
     margin: 54px 54px;
     border: 2px solid beige;
